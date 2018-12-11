@@ -1,0 +1,54 @@
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 19px;
+}
+#header {
+    color: red;
+    text-align: center;
+    padding: 50px;
+    background-image: url("https://media.giphy.com/media/3d63YDxRJRtkZepvGm/giphy.gif");
+}
+#donate {
+    color: black;
+    text-align: center;
+    padding:40px;
+    background-color:pink;
+    font-family: 'Libre Baskerville', serif;
+}
+#donate button {
+    width:100px;
+    height: 30px;
+    font-size: 15px;
+    background: black;
+    color: white;
+    border: solid white;
+}
+#images img{
+    width: 180px;
+    height: 180px;
+}
+#images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+#images img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#images img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}   
+#eagles {
+    color: red;
+    text-align: center;
+    background-color: pink;
+    padding: 30px;
+    font-family: 'Playfair Display', serif;
+
+}
